@@ -785,10 +785,10 @@ header > p {
   margin-bottom: 80px;
 }
 
-.operate__top {
+.operate .operate__top {
   border-radius: 30px;
   background: var(--back-darker-gray);
-  padding: 10px 10px;
+  padding: 10px 15px;
   text-align: center;
   color: #c2c2c2;
   font-size: 0.95rem;
@@ -799,6 +799,7 @@ header > p {
   gap: 7px;
   align-items: center;
   margin-top: 10px;
+  justify-content: center;
 }
 
 .operate__glass-cards {
@@ -899,4 +900,95 @@ header > p {
   width: 202px;
   height: 2px;
   background: #fff;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--back-black);
+  padding: 16px 36px 47px;
+}
+
+.form-section .operate__top {
+  border-radius: 30px;
+  background: var(--back-darker-gray);
+  padding: 10px 15px;
+  text-align: center;
+  color: #c2c2c2;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 102.78%;
+  margin-bottom: 27px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.nav__logo.logo-private.nav__logo-form {
+  align-self: flex-start;
+}
+
+.form-section h2 {
+  color: var(--color-white);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 24.366px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.form-section > p {
+  color: var(--color-white);
+  font-size: 1.2rem;
+  line-height: 123.28%;
+  margin-bottom: 46px;
+}
+
+.form-section form p {
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 0.625rem;
+  line-height: 102.78%;
+  margin-bottom: 18px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-section form input {
+  border-radius: 25px;
+  background: #656060;
+  width: 100%;
+  height: 48px;
+  border: none;
+  color: var(--color-white);
+  padding: 16px 25px;
+}
+
+.form-section form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  line-height: 123.28%;
+}
+
+.form-section form input:focus-visible {
+  outline: none;
+}
+
+.form-section form button {
+  border-radius: 20.411px;
+  background: #027bce;
+  padding: 0.5rem 1rem;
+  color: var(--color-white);
+  border: none;
+  margin-top: 16px;
+  font-weight: 600;
+  line-height: 123.28%;
 }
